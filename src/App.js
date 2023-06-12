@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 
 import About from "./modules/About";
 import EnforcementDatabase from "./modules/EnforcementDatabase";
@@ -8,7 +8,7 @@ import Methodology from "./modules/Methodology";
 function App() {
   return (
     <>
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
             <Route path="*" element={<EnforcementDatabase />} />
             <Route path="/about" element={<About/>}/>
@@ -16,7 +16,7 @@ function App() {
             <Route path='/methodology' element={<Methodology/>}/>
             {/* <Route path="/" element={<AppLayout/>}/> */}
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
     </>
   );
 }
