@@ -75,7 +75,7 @@ const Crawler = () => {
             <img
               src={ArchImg}
               alt="Flow chart of the crawler architechure"
-              style={{ maxWidth: "100%", height: "auto", border: 'solid #FFCD00 3px' }}
+              style={{ maxWidth: "100%", height: "auto", border: 'solid #FFCD00 2px' }}
             />
           </Grid>
         </Grid>

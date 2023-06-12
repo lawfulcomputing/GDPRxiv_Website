@@ -34,7 +34,7 @@ const Section3 = () => {
       <Grid item  marginTop="2vw" alignSelf="center" >
         <Grid container direction="row" alignItems="center" >
           <Grid item  minWidth='250px'>
-            <img src={FineByArt} alt="Fines per article" style={{ maxWidth: '100%', height: 'auto', border: 'solid #FFCD00 3px'}}/>
+            <img src={FineByArt} alt="Fines per article" style={{ maxWidth: '100%', height: 'auto', border: 'solid #FFCD00 2px'}}/>
           </Grid>
         </Grid>
       </Grid>

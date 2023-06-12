@@ -40,10 +40,10 @@ const Section2 = () => {
       <Grid item xs={12} marginTop="2vw" alignContent="center">
         <Grid container direction="row" alignItems="center">
           <Grid item xs={12} md={6}>
-            <img src={FinesInEuros} alt="Fines in Euros" style={{ maxWidth: '100%', height: 'auto', border: 'solid #FFCD00 3px'}}/>
+            <img src={FinesInEuros} alt="Fines in Euros" style={{ maxWidth: '100%', height: 'auto', border: 'solid #FFCD00 2px'}}/>
           </Grid>
           <Grid item xs={12} md={6}>
-            <img src={IssueByCountry} alt="Issue by counties" style={{ maxWidth: '100%', height: 'auto', border: 'solid #FFCD00 3px'}}/>
+            <img src={IssueByCountry} alt="Issue by counties" style={{ maxWidth: '100%', height: 'auto', border: 'solid #FFCD00 2px'}}/>
           </Grid>
         </Grid>
       </Grid>

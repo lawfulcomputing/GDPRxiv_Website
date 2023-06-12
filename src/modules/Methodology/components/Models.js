@@ -38,7 +38,7 @@ const Models = () => {
             <img
               src={ModelImg}
               alt="Process of our models"
-              style={{ maxWidth: "100%", height: "auto", border: 'solid #FFCD00 3px' }}
+              style={{ maxWidth: "100%", height: "auto", border: 'solid #FFCD00 2px' }}
             />
           </Grid>
         </Grid>

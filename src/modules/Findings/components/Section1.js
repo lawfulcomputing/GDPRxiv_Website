@@ -44,10 +44,10 @@ const Section1 = () => {
       <Grid item xs={12} marginTop='2vw' alignSelf='center' >
         <Grid container direction='row'  alignItems='center'>
             <Grid item xs={12} md={6}>
-                <img src={gdprCountry} alt="GDPR data by country" style={{ maxWidth: '100%', height: 'auto', border: 'solid #FFCD00 3px'}}/>
+                <img src={gdprCountry} alt="GDPR data by country" style={{ maxWidth: '100%', height: 'auto', border: 'solid #FFCD00 2px'}}/>
             </Grid>
             <Grid item xs={12} md={6}>
-                <img src={gdprYear} alt="GDPR data by year" style={{ maxWidth: '100%', height: 'auto', border: 'solid #FFCD00 3px'}}/>
+                <img src={gdprYear} alt="GDPR data by year" style={{ maxWidth: '100%', height: 'auto', border: 'solid #FFCD00 2px'}}/>
             </Grid>
         </Grid>
       </Grid>

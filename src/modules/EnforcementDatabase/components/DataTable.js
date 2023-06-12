@@ -128,7 +128,7 @@ const DataTable = () => {
 
   return (
     <>
-      <TableContainer component={Paper} sx={{ maxWidth: "95%" }}>
+      <TableContainer component={Paper} sx={{ maxWidth: "95%", marginBottom: '45px' }}>
         <Table>
           <TableHead>
             <TableRow>
