@@ -19,7 +19,7 @@ const Crawler = () => {
         <Divider />
       </Grid>
       <Grid item xs={12}>
-        <Grid container direction="row" marginBottom='3vw'>
+        <Grid container direction="row" marginBottom="3vw">
           <Grid item xs={12} md={5}>
             <Typography variant="body1">
               The figure shows the system architecture of GDPRxiv. It has five
@@ -75,7 +75,10 @@ const Crawler = () => {
             <img
               src={ArchImg}
               alt="Flow chart of the crawler architechure"
-              style={{ maxWidth: "100%", height: "auto", border: 'solid #FFCD00 2px' }}
+              style={{
+                maxWidth: "100%",
+                height: "auto",
+              }}
             />
           </Grid>
         </Grid>
@@ -90,8 +93,11 @@ const Crawler = () => {
           </Typography>
         </Grid>
       </Grid>
-      <Grid item alignItems='center' marginTop='3vw'>
-        <Button xs={12} variant="contained" disabled> GDPRxiv SOTA Explorer</Button>
+      <Grid item alignItems="center" marginTop="3vw">
+        <Button xs={12} variant="contained" disabled>
+          {" "}
+          GDPRxiv SOTA Explorer
+        </Button>
       </Grid>
     </Grid>
   );

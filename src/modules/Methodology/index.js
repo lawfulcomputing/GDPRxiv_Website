@@ -3,6 +3,7 @@ import NavController from '../../common/layouts/NavController'
 import Title from './components/Title';
 import Models from './components/Models';
 import Crawler from './components/Crawler';
+import Footer from '../../common/layouts/Footer';
 
 const Methodology = () => {
     return (
@@ -13,6 +14,7 @@ const Methodology = () => {
                 <Models/>
                 <Crawler/>
             </Grid>
+            <Footer/>
         </>
     )
 }

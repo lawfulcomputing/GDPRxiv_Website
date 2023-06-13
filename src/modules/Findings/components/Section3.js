@@ -1,6 +1,6 @@
 import { Grid, Divider, Typography } from "@mui/material";
 
-import FineByArt from '../assets/FinePerArt.webp'
+import FineByArt from "../assets/FinePerArt.webp";
 
 const Section3 = () => {
   return (
@@ -11,7 +11,7 @@ const Section3 = () => {
       sx={{ maxWidth: "60%" }}
       marginBottom="3vw"
     >
-      <Grid item xs={12} textAlign="center" >
+      <Grid item xs={12} textAlign="center">
         <Divider />
         <Typography variant="h5">
           3. Areas of focus in GDPR enforcement
@@ -31,10 +31,17 @@ const Section3 = () => {
           security infrastructure is to be designed and operated (32).
         </Typography>
       </Grid>
-      <Grid item  marginTop="2vw" alignSelf="center" >
-        <Grid container direction="row" alignItems="center" >
-          <Grid item  minWidth='250px'>
-            <img src={FineByArt} alt="Fines per article" style={{ maxWidth: '100%', height: 'auto', border: 'solid #FFCD00 2px'}}/>
+      <Grid item marginTop="2vw" alignSelf="center">
+        <Grid container direction="row" alignItems="center">
+          <Grid item minWidth="250px">
+            <img
+              src={FineByArt}
+              alt="Fines per article"
+              style={{
+                maxWidth: "100%",
+                height: "auto",
+              }}
+            />
           </Grid>
         </Grid>
       </Grid>

@@ -2,9 +2,10 @@ import { Grid, Typography } from "@mui/material";
 
 import iowaLogo from "../../assets/Block-IOWA-BLACK.png";
 import DesktopNavItem from "./DesktopNavItem";
+import { useLocation } from "react-router-dom";
 
 const DesktopNavBar = () => {
-
+  const location = useLocation().pathname;
   return (
     <>
       <Grid
@@ -20,21 +21,37 @@ const DesktopNavBar = () => {
           <Grid item>
             <img src={iowaLogo} alt="Iowa logo" style={{ width: "100px" }} />
           </Grid>
-          <Grid item alignSelf='center' paddingX='10px'>
+          <Grid item alignSelf="center" paddingX="10px">
             <Typography variant="h5">GDPRxiv</Typography>
           </Grid>
         </Grid>
         <Grid
           container
           direction="row"
-          xs={9}  
+          xs={9}
           justifyContent="flex-end"
-          alignContent='center'
+          alignContent="center"
         >
-          <DesktopNavItem name={"Enforcement Database"} location={""}/>
-          <DesktopNavItem name={"Findings"} location={"findings"}/>
-          <DesktopNavItem name={'Methodology'} location={'methodology'}/>
-          <DesktopNavItem name={"About"} location={'about'}/>
+          <DesktopNavItem
+            name={"Enforcement Database"}
+            location={""}
+            active={location === "/"}
+          />
+          <DesktopNavItem
+            name={"Findings"}
+            location={"findings"}
+            active={location === "/findings"}
+          />
+          <DesktopNavItem
+            name={"Methodology"}
+            location={"methodology"}
+            active={location === "/methodology"}
+          />
+          <DesktopNavItem
+            name={"About"}
+            location={"about"}
+            active={location === "/about"}
+          />
         </Grid>
       </Grid>
     </>

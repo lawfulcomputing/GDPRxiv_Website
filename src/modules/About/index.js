@@ -1,6 +1,7 @@
 import { Grid, Typography, useTheme, useMediaQuery } from "@mui/material";
 import NavController from "../../common/layouts/NavController";
 import Researchers from "./components/Researchers";
+import Footer from "../../common/layouts/Footer";
 
 const About = () => {
   const theme = useTheme();
@@ -13,7 +14,6 @@ const About = () => {
         container
         direction="column"
         padding="20px"
-        sx={{ backgroundColor: "#EEEBEB" }}
       >
         <Grid
           container
@@ -61,6 +61,7 @@ const About = () => {
           <Researchers />
         </Grid>
       </Grid>
+      <Footer/>
     </>
   );
 };
