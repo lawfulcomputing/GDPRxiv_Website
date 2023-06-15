@@ -1,4 +1,4 @@
-import { Grid, Divider, Typography, Box, Button } from "@mui/material";
+import { Grid, Divider, Typography, Box } from "@mui/material";
 
 import ArchImg from "../assets/architecture.webp";
 
@@ -92,12 +92,6 @@ const Crawler = () => {
             the entire corpora in the original format, please contact us.
           </Typography>
         </Grid>
-      </Grid>
-      <Grid item alignItems="center" marginTop="3vw">
-        <Button xs={12} variant="contained" disabled>
-          {" "}
-          GDPRxiv SOTA Explorer
-        </Button>
       </Grid>
     </Grid>
   );

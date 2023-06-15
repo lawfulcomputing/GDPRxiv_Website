@@ -10,7 +10,9 @@ const EnforcementDatabase = () => {
       <NavController />
       <Grid container direction="column" alignItems="center">
         <Grid container direction="row"  sx={{ maxWidth: '80%', marginTop: '20px'}}>
-          <Grid item xs={12} md={3} textAlign='center'>
+          <Grid item md={1}>
+          </Grid>
+          <Grid item xs={12} md={2} textAlign='center'>
             <img
               src={teamLogo}
               alt="University of Iowa Lawful computing research logo"
@@ -18,7 +20,7 @@ const EnforcementDatabase = () => {
             />
           </Grid>
           <Grid item xs={12} md={8}>
-            <Typography variant="body2">
+            <Typography variant="body2" paddingLeft='5px'>
               <Typography variant="h6" component='span'>
               GDPRxiv
               </Typography>{" "}

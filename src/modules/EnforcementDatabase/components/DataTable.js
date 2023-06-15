@@ -41,7 +41,7 @@ const DataTable = () => {
   };
 
   function parseDate(dateString) {
-    const [day, month, year] = dateString.split("/");
+    const [month, day, year] = dateString.split("/");
     // Months are zero-based in JavaScript Date objects, so subtract 1 from the month
     return new Date(year, month - 1, day);
   }
@@ -179,7 +179,7 @@ const DataTable = () => {
               <TableCell sx={{ textAlign: "center" }}>
                 <Grid container direction="row">
                   <Grid item xs={12}>
-                    Fine
+                    Fine (in €)
                   </Grid>
                   <Grid item xs={12}>
                     <Button onClick={handleSortByFine}>
