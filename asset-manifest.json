@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.js": "/static/js/main.8fc42b3f.js",
+    "main.js": "/static/js/main.c2084cf1.js",
     "static/js/787.de07856c.chunk.js": "/static/js/787.de07856c.chunk.js",
     "static/media/gdprByCountry.webp": "/static/media/gdprByCountry.7bdf761e439cf79154f5.webp",
     "static/media/architecture.webp": "/static/media/architecture.9cfa3d4d94e842961dec.webp",
     "static/media/model.webp": "/static/media/model.a007cc2bc0e1420b4805.webp",
     "static/media/FinePerArt.webp": "/static/media/FinePerArt.74cdb687aee172050a71.webp",
     "static/media/gdprByYear.webp": "/static/media/gdprByYear.da4a2c9bf57ac4d203c7.webp",
-    "static/media/Block-IOWA-BLACK.png": "/static/media/Block-IOWA-BLACK.ce3b75c7787e68b71612.png",
     "static/media/chen-sun.webp": "/static/media/chen-sun.4f62c0bb4145f583db33.webp",
     "static/media/IssueByCountry.webp": "/static/media/IssueByCountry.cf5fb1082956fdb41430.webp",
     "static/media/dylan-fair.webp": "/static/media/dylan-fair.cdd8888c608aa4afacd3.webp",
@@ -17,10 +16,10 @@
     "static/media/Daniel.webp": "/static/media/Daniel.47669676206b81f6739a.webp",
     "static/media/andrew.webp": "/static/media/andrew.8fc692947fbead1fbaf0.webp",
     "index.html": "/index.html",
-    "main.8fc42b3f.js.map": "/static/js/main.8fc42b3f.js.map",
+    "main.c2084cf1.js.map": "/static/js/main.c2084cf1.js.map",
     "787.de07856c.chunk.js.map": "/static/js/787.de07856c.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.8fc42b3f.js"
+    "static/js/main.c2084cf1.js"
   ]
 }
