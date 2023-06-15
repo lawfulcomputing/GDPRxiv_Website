@@ -1,7 +1,6 @@
 import { Grid, IconButton, Menu, MenuItem, Typography } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 
-import iowaLogo from "../../assets/Block-IOWA-BLACK.png";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -32,11 +31,8 @@ const TabletNavBar = () => {
         width="100%"
       >
         <Grid container xs={10}>
-          <Grid item>
-            <img src={iowaLogo} alt="Iowa logo" style={{ width: "100px" }} />
-          </Grid>
           <Grid item alignSelf="center" paddingX="10px">
-            <Typography variant="h5">GDPRxiv</Typography>
+            <Typography fontWeight='bold' variant="h5">GDPRxiv</Typography>
           </Grid>
         </Grid>
         <Grid container xs={1} >

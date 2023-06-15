@@ -1,6 +1,5 @@
 import { Grid, Typography } from "@mui/material";
 
-import iowaLogo from "../../assets/Block-IOWA-BLACK.png";
 import DesktopNavItem from "./DesktopNavItem";
 import { useLocation } from "react-router-dom";
 
@@ -18,11 +17,8 @@ const DesktopNavBar = () => {
         width="100%"
       >
         <Grid container xs={3}>
-          <Grid item>
-            <img src={iowaLogo} alt="Iowa logo" style={{ width: "100px" }} />
-          </Grid>
           <Grid item alignSelf="center" paddingX="10px">
-            <Typography variant="h5">GDPRxiv</Typography>
+            <Typography fontWeight='bold' variant="h5">GDPRxiv</Typography>
           </Grid>
         </Grid>
         <Grid
