@@ -10,8 +10,12 @@ def processTheData(data, country, urlPath):
     formattedData = {"country": "", "date": "", "fine": "0", "decision": "N/A", "company": "", "quotedArt": "", "source": ""}
     formattedData["company"] = data["controller"]
     formattedData["country"] = os.path.basename(country).replace("_", " ")
-    release_date = datetime.strptime(data["releaseDate"], "%d/%m/%Y").strftime("%m/%d/%Y")
-    formattedData["date"] = release_date
+    if len(data["releaseDate"]) != 10:
+        formattedData["date"] = data["releaseDate"]  # Keep the original year format
+    else:
+        # Convert date format from "dd/mm/yyyy" to "mm/dd/yyyy"
+        release_date = datetime.strptime(data["releaseDate"], "%d/%m/%Y").strftime("%m/%d/%Y")
+        formattedData["date"] = release_date
     if "fine" in data:
         formattedData["fine"] = data["fine"]
     if "decision" in data:
