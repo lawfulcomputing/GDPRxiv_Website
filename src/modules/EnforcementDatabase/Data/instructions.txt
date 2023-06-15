@@ -1,0 +1,18 @@
+Instructions to add new data to the table.
+
+1. Clone the GDPRxiv repo into the Data folder
+https: https://github.com/lawfulcomputing/GDPRxiv.git
+ssh: git@github.com:lawfulcomputing/GDPRxiv.git
+
+2. Once cloned run the GetAllData.py file in the terminal (make sure you have python downloaded)
+python GetAllData.py
+
+3. This make take a minute to fully run but it should output how many files were Saved
+
+4. Deleted the GDPRxiv folder from the directly as it is a git repo and can't be pushed
+
+5. git push origin main - this will update the GDPRxiv_Website repo 
+
+6. npm deploy - this will deploy the changes make to gdprxiv.org if 
+the changes are not made check under actions on the GDPRxiv_Website repo
+to see if the deploy was successful make sure you have npm installed

@@ -32,6 +32,7 @@ const DesktopNavBar = () => {
           justifyContent="flex-end"
           alignContent="center"
         >
+
           <DesktopNavItem
             name={"Enforcement Database"}
             location={""}

@@ -5,7 +5,7 @@ BASE_URL = "https://github.com/lawfulcomputing/GDPRxiv/tree/main/"
 
 def processTheData(data, country, urlPath):
     finalUrl = BASE_URL + urlPath
-    finalUrl = finalUrl.replace(" ", "")
+    finalUrl = finalUrl.replace(" ", "%20")
     formattedData = {"country": "", "date": "", "fine": "0", "decision": "N/A", "company": "", "quotedArt": "", "source": ""}
     formattedData["company"] = data["controller"]
     formattedData["country"] = os.path.basename(country).replace("_", " ")
