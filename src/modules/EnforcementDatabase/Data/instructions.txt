@@ -13,6 +13,6 @@ python GetAllData.py
 
 5. git push origin main - this will update the GDPRxiv_Website repo 
 
-6. npm deploy - this will deploy the changes make to gdprxiv.org if 
+6. npm run deploy - this will deploy the changes make to gdprxiv.org if 
 the changes are not made check under actions on the GDPRxiv_Website repo
 to see if the deploy was successful make sure you have npm installed

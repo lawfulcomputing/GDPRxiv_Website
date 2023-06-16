@@ -2413,15 +2413,6 @@
     },
     {
         "country": "bulgaria",
-        "date": "02/23/2018",
-        "fine": "0",
-        "decision": "dismissed",
-        "company": "neighbor",
-        "quotedArt": "28, 30",
-        "source": "https://github.com/lawfulcomputing/GDPRxiv/tree/main/documents/bulgaria/CPDP%20Decisions%20or%20Opinion/766a85947dacceaee287baea934871da"
-    },
-    {
-        "country": "bulgaria",
         "date": "07/23/2019",
         "fine": "7,670",
         "decision": "administrative fine",
@@ -2572,15 +2563,6 @@
         "company": "private bailiff",
         "quotedArt": "12",
         "source": "https://github.com/lawfulcomputing/GDPRxiv/tree/main/documents/bulgaria/CPDP%20Decisions%20or%20Opinion/a739191c397671dce46f7707f7cd755b"
-    },
-    {
-        "country": "bulgaria",
-        "date": "01/22/2018",
-        "fine": "0",
-        "decision": "without consideration as procedurally",
-        "company": "unknown",
-        "quotedArt": "10",
-        "source": "https://github.com/lawfulcomputing/GDPRxiv/tree/main/documents/bulgaria/CPDP%20Decisions%20or%20Opinion/a9caf08819fd2b1de8f75d824666cc81"
     },
     {
         "country": "bulgaria",
@@ -2818,15 +2800,6 @@
     },
     {
         "country": "bulgaria",
-        "date": "05/08/2018",
-        "fine": "0",
-        "decision": "dismisses",
-        "company": "unnamed",
-        "quotedArt": "9",
-        "source": "https://github.com/lawfulcomputing/GDPRxiv/tree/main/documents/bulgaria/CPDP%20Decisions%20or%20Opinion/f7abefb80126af15ba71ae712f11f16f"
-    },
-    {
-        "country": "bulgaria",
         "date": "06/03/2020",
         "fine": "0",
         "decision": "upheld",
@@ -2845,15 +2818,6 @@
     },
     {
         "country": "bulgaria",
-        "date": "03/13/2018",
-        "fine": "0",
-        "decision": "reject the cassation appeal",
-        "company": "N.H.G.",
-        "quotedArt": "4, 24",
-        "source": "https://github.com/lawfulcomputing/GDPRxiv/tree/main/documents/bulgaria/SCA%20Decisions/04c85007f0956b8bbc6ac26b72d5d26b"
-    },
-    {
-        "country": "bulgaria",
         "date": "11/09/2021",
         "fine": "2,557",
         "decision": "partially accept the cassation appeal",
@@ -2869,15 +2833,6 @@
         "company": "United Bulgarian Bank",
         "quotedArt": "7",
         "source": "https://github.com/lawfulcomputing/GDPRxiv/tree/main/documents/bulgaria/SCA%20Decisions/23c48bd1d63ea63361524e95842b2084"
-    },
-    {
-        "country": "bulgaria",
-        "date": "05/02/2018",
-        "fine": "0",
-        "decision": "reject the cassation appeal",
-        "company": "unnamed",
-        "quotedArt": "4",
-        "source": "https://github.com/lawfulcomputing/GDPRxiv/tree/main/documents/bulgaria/SCA%20Decisions/28b4646f95993a93e4bd461619311dc0"
     },
     {
         "country": "bulgaria",
@@ -2926,30 +2881,12 @@
     },
     {
         "country": "bulgaria",
-        "date": "03/28/2018",
-        "fine": "0",
-        "decision": "reject the cassation appeal",
-        "company": "unnamed company",
-        "quotedArt": "4",
-        "source": "https://github.com/lawfulcomputing/GDPRxiv/tree/main/documents/bulgaria/SCA%20Decisions/a2d2fede5b93c3aac2bc11ed4f0c7787"
-    },
-    {
-        "country": "bulgaria",
         "date": "01/18/2021",
         "fine": "0",
         "decision": "reject the cassation appeal",
         "company": "Bulgarian Telecommunications Company",
         "quotedArt": "32, 6",
         "source": "https://github.com/lawfulcomputing/GDPRxiv/tree/main/documents/bulgaria/SCA%20Decisions/ace2b52c2b4f2e18be984d9551429095"
-    },
-    {
-        "country": "bulgaria",
-        "date": "03/22/2018",
-        "fine": "5,624",
-        "decision": "reject the cassation appeal",
-        "company": "unnamed company",
-        "quotedArt": "4",
-        "source": "https://github.com/lawfulcomputing/GDPRxiv/tree/main/documents/bulgaria/SCA%20Decisions/adc4434a268ad6e439fcad5686f908ab"
     },
     {
         "country": "bulgaria",
@@ -3340,7 +3277,7 @@
     },
     {
         "country": "cyprus",
-        "date": "Need to add",
+        "date": "03/04/2020",
         "fine": "0",
         "decision": "upheld",
         "company": "Hellenic Bank",
@@ -10864,6 +10801,15 @@
     },
     {
         "country": "ireland",
+        "date": " 25/11/2022",
+        "fine": "265,000,000",
+        "decision": "administrative fine",
+        "company": "Meta Platforms Ireland Limited",
+        "quotedArt": "25",
+        "source": "https://github.com/lawfulcomputing/GDPRxiv/tree/main/documents/ireland/Decisions/da4785cd33e3d6ba0af329133e11e5f8"
+    },
+    {
+        "country": "ireland",
         "date": "08/01/2021",
         "fine": "225,000,000",
         "decision": "administrative fine",
@@ -11383,6 +11329,15 @@
         "company": "La Duomo S.r.l.s.",
         "quotedArt": "5, 6, 12, 15, 24, 58, 78, 83",
         "source": "https://github.com/lawfulcomputing/GDPRxiv/tree/main/documents/italy/Injunctions/2f966ed70d7fe1b7af553691e7135e4a"
+    },
+    {
+        "country": "italy",
+        "date": "01/15/2020",
+        "fine": "27,800,000",
+        "decision": "administrative fine",
+        "company": "TIM (telecommunications operator)",
+        "quotedArt": "5, 6, 17, 21, 32",
+        "source": "https://github.com/lawfulcomputing/GDPRxiv/tree/main/documents/italy/Injunctions/31cc052c5bcc3ae44c98c65e546d928f"
     },
     {
         "country": "italy",
@@ -13381,6 +13336,15 @@
         "company": "Eurosanit\u00e0 s.p.a.",
         "quotedArt": "5, 9",
         "source": "https://github.com/lawfulcomputing/GDPRxiv/tree/main/documents/italy/Injunctions/ffd4fbe865cd2d81f5a1c5267b82b168"
+    },
+    {
+        "country": "luxembourg",
+        "date": "2021",
+        "fine": "746,000,000",
+        "decision": "administrative fine",
+        "company": "Amazon Europe Core S.\u00e0.r.l.",
+        "quotedArt": "unknown",
+        "source": "https://github.com/lawfulcomputing/GDPRxiv/tree/main/documents/luxembourg/Annual%20Reports/00b3c1518068f6331f7eec8a1cee7073"
     },
     {
         "country": "luxembourg",
@@ -30143,7 +30107,7 @@
     {
         "country": "spain",
         "date": "03/09/2021",
-        "fine": "",
+        "fine": "0",
         "decision": "file the proceedings",
         "company": "Instalaciones Y Gya Projects S.L.",
         "quotedArt": "13",
