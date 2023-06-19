@@ -16,3 +16,5 @@ python GetAllData.py
 6. npm run deploy - this will deploy the changes make to gdprxiv.org if 
 the changes are not made check under actions on the GDPRxiv_Website repo
 to see if the deploy was successful make sure you have npm installed
+
+7. Go on the github repo under setting and pages then add the gdprxiv.org url to the custom domain
