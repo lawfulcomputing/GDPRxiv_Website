@@ -65,7 +65,7 @@ const DataTable = () => {
       const upperValue = parseInt(match[2]);
       return (lowerValue + upperValue) / 2; // Taking the average of the range
     } else if (fine.toLowerCase() === "unknown") {
-      return 1; // Treat "unknown" fines as -1
+      return 1; // Treat "unknown" fines as 1
     } else if (fine === "0") {
       return 0; // Treat explicit "0" as 0
     }

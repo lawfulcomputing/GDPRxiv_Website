@@ -9,12 +9,10 @@ python GetAllData.py
 
 3. This make take a minute to fully run but it should output how many files were Saved
 
-4. Deleted the GDPRxiv folder from the directly as it is a git repo and can't be pushed
+4. git push origin main - this will update the GDPRxiv_Website repo 
 
-5. git push origin main - this will update the GDPRxiv_Website repo 
-
-6. npm run deploy - this will deploy the changes make to gdprxiv.org if 
+5. npm run deploy - this will deploy the changes make to gdprxiv.org if 
 the changes are not made check under actions on the GDPRxiv_Website repo
 to see if the deploy was successful make sure you have npm installed
 
-7. Go on the github repo under setting and pages then add the gdprxiv.org url to the custom domain
+6. Go on the github repo under setting and pages then add the gdprxiv.org url to the custom domain

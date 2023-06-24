@@ -54,7 +54,7 @@ const TabletNavBar = () => {
               >
                 Enforcement Database
               </MenuItem>
-              <MenuItem
+              {/* <MenuItem
                 onClick={() => {
                   navigateToFinidng();
                   handleClose();
@@ -69,7 +69,7 @@ const TabletNavBar = () => {
                 }}
               >
                 Methodology
-              </MenuItem>
+              </MenuItem> */}
               <MenuItem
                 onClick={() => {
                   navigateToAbout();

@@ -34,7 +34,7 @@ const DesktopNavBar = () => {
             location={""}
             active={location === "/"}
           />
-          <DesktopNavItem
+          {/* <DesktopNavItem
             name={"Findings"}
             location={"findings"}
             active={location === "/findings"}
@@ -43,7 +43,7 @@ const DesktopNavBar = () => {
             name={"Methodology"}
             location={"methodology"}
             active={location === "/methodology"}
-          />
+          /> */}
           <DesktopNavItem
             name={"About"}
             location={"about"}
