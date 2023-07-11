@@ -8,7 +8,7 @@ const About = () => {
   const isTablet = useMediaQuery(theme.breakpoints.down("md"));
 
   return (
-    <>
+    <div style={{ backgroundColor: "#EEEBEB" }}>
       <NavController />
       <Grid
         container
@@ -62,7 +62,7 @@ const About = () => {
         </Grid>
       </Grid>
       <Footer/>
-    </>
+    </div>
   );
 };
 

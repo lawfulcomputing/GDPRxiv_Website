@@ -13,9 +13,8 @@ const EnforcementDatabase = () => {
         <Grid
           container
           direction="row"
-          sx={{ maxWidth: "80%", marginTop: "20px" }}
+          sx={{ maxWidth: "95%", marginTop: "20px" }}
         >
-          <Grid item md={1}></Grid>
           <Grid item xs={12} md={2} textAlign="center">
             <img
               src={teamLogo}
@@ -23,7 +22,7 @@ const EnforcementDatabase = () => {
               width="100px"
             />
           </Grid>
-          <Grid item xs={12} md={8}>
+          <Grid item xs={12} md={10}>
             <Typography variant="body2" paddingLeft="5px">
               <Typography variant="h6" component="span">
                 GDPRxiv
@@ -50,7 +49,7 @@ const EnforcementDatabase = () => {
               </Typography>{" "}
               download the entire corpora, or simply explore the enforcement
               viewer below. The current view reflects all the enforcements
-              between 25-May-2018 and 24-Nov-2022.
+              between 25-May-2018 and 26-Jun-2023.
             </Typography>
           </Grid>
         </Grid>
