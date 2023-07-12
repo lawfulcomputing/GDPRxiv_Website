@@ -3673,6 +3673,15 @@
     },
     {
         "country": "cyprus",
+        "date": "11/12/2021",
+        "fine": "925,000",
+        "decision": "administrative fine",
+        "company": "WS WiSpear Systems Ltd",
+        "quotedArt": "5",
+        "source": "https://github.com/lawfulcomputing/GDPRxiv/tree/main/documents/cyprus/Decisions/4fd21e69e1f09677fa24d04a17ce0b6d"
+    },
+    {
+        "country": "cyprus",
         "date": "10/19/2020",
         "fine": "6,000",
         "decision": "administrative fine",
@@ -10423,6 +10432,15 @@
     },
     {
         "country": "greece",
+        "date": "01/27/2022",
+        "fine": "3,250,000",
+        "decision": "administrative fine",
+        "company": "Hellenic Telecommunications Organization SA",
+        "quotedArt": "58",
+        "source": "https://github.com/lawfulcomputing/GDPRxiv/tree/main/documents/greece/Decisions/3f458bd41d177682603ca8711d83b459"
+    },
+    {
+        "country": "greece",
         "date": "10/12/2021",
         "fine": "10,000",
         "decision": "administrative fine",
@@ -13277,10 +13295,10 @@
     {
         "country": "ireland",
         "date": "01/04/2023",
-        "fine": "390,000",
+        "fine": "390,000,000",
         "decision": "administrative fine",
         "company": "Meta Platforms Ireland Limited",
-        "quotedArt": "5, 13, 32",
+        "quotedArt": "5, 6, 12, 13, 32",
         "source": "https://github.com/lawfulcomputing/GDPRxiv/tree/main/documents/ireland/Decisions/e3ca90acff6b693f6fb86a0bf0be48f5"
     },
     {
@@ -21026,11 +21044,20 @@
     {
         "country": "portugal",
         "date": "2022",
-        "fine": "",
-        "decision": "notice",
-        "company": "INE",
-        "quotedArt": "5, 83, 9, 32, 12, 13, 28",
+        "fine": "4,300,000",
+        "decision": "administrative fine",
+        "company": "Portuguese National Statistical Institute",
+        "quotedArt": "5, 9, 12, 13, 28, 46, 44, 35",
         "source": "https://github.com/lawfulcomputing/GDPRxiv/tree/main/documents/portugal/Decisions/937580794c5256b421dae6ff1a80d68a"
+    },
+    {
+        "country": "portugal",
+        "date": "2022",
+        "fine": "170,000",
+        "decision": "administrative fine",
+        "company": "Municipality of Set\u00fabal",
+        "quotedArt": "5, 13, 37",
+        "source": "https://github.com/lawfulcomputing/GDPRxiv/tree/main/documents/portugal/Decisions/9b7293f21778053b020f7405392384fc"
     },
     {
         "country": "portugal",
