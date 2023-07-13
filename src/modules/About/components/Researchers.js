@@ -12,7 +12,7 @@ const Researchers = () => {
         <>
             <Grid container direction='row' justifyContent='space-evenly'>
                 <Grid item xs={12} md={4} >
-                    <Researcher photo={supreethImg} name={"Sureeth Shastri"} position={"Assistant Professor of CS"} school={"University of Iowa"}/>
+                    <Researcher photo={supreethImg} name={"Supreeth Shastri"} position={"Assistant Professor of CS"} school={"University of Iowa"}/>
                 </Grid>
                 <Grid item xs={12} md={4}>
                     <Researcher photo={andrewImg} name={"Andrew Crouse"} position={"Associate Professor of Law"} school={"University of Iowa"}/>
