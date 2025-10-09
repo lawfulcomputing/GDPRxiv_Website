@@ -63,7 +63,7 @@ def process_metadata_files(root_directory):
 
 
 # Define the root directory
-root_directory = '/Users/venya/Desktop/GDPRxiv/documents'
+root_directory = 'GDPRxiv/documents'
 
 # Run the script and get the JSON objects
 result = process_metadata_files(root_directory)
