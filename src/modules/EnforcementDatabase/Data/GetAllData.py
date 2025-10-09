@@ -40,7 +40,7 @@ def process_metadata_files(root_directory):
                     for hex_value in os.listdir(violation_directory):
                         hex_directory = os.path.join(violation_directory, hex_value)
                         if os.path.isdir(hex_directory):
-                            urlPath = hex_directory.replace("GDPRxiv/", "");
+                            rel_path = os.path.relpath(hex_directory, os.path.dirname(root_directory)).replace("\\", "/")
                             metadata_file = os.path.join(hex_directory, 'metadata.json')
                             if os.path.isfile(metadata_file):
                                 try:
@@ -49,10 +49,10 @@ def process_metadata_files(root_directory):
                                         if isinstance(metadata, list):
                                             for data in metadata:
                                                 if "controller" in data:
-                                                    json_objects.append(processTheData(data, countryName, urlPath))
+                                                    json_objects.append(processTheData(data, countryName, rel_path))
                                         else:
                                             if 'controller' in metadata:
-                                                json_objects.append(processTheData(metadata, countryName, urlPath))
+                                                json_objects.append(processTheData(metadata, countryName, rel_path))
                                 except json.JSONDecodeError as e:
                                     print(f"Error processing {metadata_file}: {e}")
                                 except Exception as e:
