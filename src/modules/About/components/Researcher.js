@@ -15,9 +15,9 @@ const Researcher = ({ photo, name, position, school }) => {
             src={photo}
             alt={`head shot of ${name} `}
             style={{
-              width: "150px",            
-              height: "150px",         
-              objectFit: "cover",          
+              width: "150px",
+              height: "150px",
+              objectFit: "cover", 
               borderRadius: "50%",        
               border: "5px solid #FFCD00",
               boxShadow: "0 0 14px rgba(0,0,0,0.2)",
