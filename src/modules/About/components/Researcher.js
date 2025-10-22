@@ -15,9 +15,13 @@ const Researcher = ({ photo, name, position, school }) => {
             src={photo}
             alt={`head shot of ${name} `}
             style={{
+              width: "150px",            
+              height: "150px",         
+              objectFit: "cover",          
+              borderRadius: "50%",        
               border: "5px solid #FFCD00",
-              borderRadius: "100%",
-              boxShadow: "0.00px 0.00px 14px 0px rgba(0,0,0,0.2)",
+              boxShadow: "0 0 14px rgba(0,0,0,0.2)",
+              display: "block",
             }}
           />
         </Grid>
@@ -36,3 +40,5 @@ const Researcher = ({ photo, name, position, school }) => {
 };
 
 export default Researcher;
+
+

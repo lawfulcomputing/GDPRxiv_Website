@@ -6,19 +6,23 @@ import chenImg from '../assets/chen-sun.webp'
 import danielImg from '../assets/Daniel.webp'
 import evanImg from '../assets/evan-jacobs.webp'
 import dylanImg from '../assets/dylan-fair.webp'
+import venyaImg from '../assets/venya.webp'
 
 const Researchers = () => {
     return (
         <>
             <Grid container direction='row' justifyContent='space-evenly'>
                 <Grid item xs={12} md={4} >
-                    <Researcher photo={supreethImg} name={"Supreeth Shastri"} position={"Assistant Professor of CS"} school={"University of Iowa"}/>
+                    <Researcher photo={supreethImg} name={"Supreeth Shastri"} position={"Assistant Professor of CS"} school={"University of North Texas"}/>
                 </Grid>
                 <Grid item xs={12} md={4}>
                     <Researcher photo={andrewImg} name={"Andrew Crouse"} position={"Associate Professor of Law"} school={"University of Iowa"}/>
                 </Grid>
                 <Grid item xs={12} md={4}>
                     <Researcher photo={chenImg} name={"Chen Sun"} position={"Doctoral Researcher"} school={"University of Iowa"}/>
+                </Grid>
+                <Grid item xs={12} md={4}>
+                    <Researcher photo={venyaImg} name={"Venya Durgam"} position={"Doctoral Researcher"} school={"University of North Texas"}/>
                 </Grid>
                 <Grid item xs={12} md={4}>
                     <Researcher photo={danielImg} name={"Daniel Lehmann"} position={"Undergraduate Researcher"} school={"University of Copenhagen"}/>
