@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.ac8c4a10.js",
+    "main.js": "/static/js/main.4e723893.js",
     "static/js/787.de07856c.chunk.js": "/static/js/787.de07856c.chunk.js",
     "static/media/PETS2023.pdf": "/static/media/PETS2023.ff665b956b59b9f70cd8.pdf",
     "static/media/venya.webp": "/static/media/venya.ed9c24e71604619d4aba.webp",
@@ -18,10 +18,10 @@
     "static/media/Daniel.webp": "/static/media/Daniel.47669676206b81f6739a.webp",
     "static/media/andrew.webp": "/static/media/andrew.8fc692947fbead1fbaf0.webp",
     "index.html": "/index.html",
-    "main.ac8c4a10.js.map": "/static/js/main.ac8c4a10.js.map",
+    "main.4e723893.js.map": "/static/js/main.4e723893.js.map",
     "787.de07856c.chunk.js.map": "/static/js/787.de07856c.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.ac8c4a10.js"
+    "static/js/main.4e723893.js"
   ]
 }
