@@ -49,7 +49,7 @@ const EnforcementDatabase = () => {
               </Typography>{" "}
               download the entire corpora, or simply explore the enforcement
               viewer below. The current view reflects all the enforcements
-              between 25-May-2018 and 17-Jun-2025.
+              between 25-May-2018 and 26-Jun-2023.
             </Typography>
           </Grid>
         </Grid>

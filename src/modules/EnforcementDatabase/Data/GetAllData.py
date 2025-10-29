@@ -2,7 +2,7 @@ import os
 import json
 from datetime import datetime
 
-BASE_URL = "https://github.com/lawfulcomputing/GDPRxiv/tree/main/"
+BASE_URL = "https://github.com/lawfulcomputing/GDPRxiv/tree/revert_metadata_update/"
 
 def processTheData(data, country, urlPath):
     finalUrl = BASE_URL + urlPath
@@ -48,10 +48,10 @@ def process_metadata_files(root_directory):
                                         metadata = json.load(f)
                                         if isinstance(metadata, list):
                                             for data in metadata:
-                                                if "controller" in data:
+                                                if ("controller" in data and data.get("documentType") == "GDPR"):
                                                     json_objects.append(processTheData(data, countryName, rel_path))
                                         else:
-                                            if 'controller' in metadata:
+                                            if ('controller' in metadata and metadata.get("documentType") == "GDPR"):
                                                 json_objects.append(processTheData(metadata, countryName, rel_path))
                                 except json.JSONDecodeError as e:
                                     print(f"Error processing {metadata_file}: {e}")
